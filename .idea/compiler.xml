@@ -12,6 +12,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="DaumSchedule.Common.main" target="1.8" />
+      <module name="DaumSchedule.Common.test" target="1.8" />
       <module name="DaumSchedule.main" target="1.8" />
       <module name="DaumSchedule.test" target="1.8" />
     </bytecodeTargetLevel>

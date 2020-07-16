@@ -61,12 +61,12 @@ subprojects {
 
 project(':NightworkBot') {
     dependencies {
-        compile project(':Common')
+        implementation project(':CommonDomain')
     }
 }
 
 project(':Admin') {
     dependencies {
-        compile project(':Common')
+        implementation project(':CommonDomain')
     }
 }

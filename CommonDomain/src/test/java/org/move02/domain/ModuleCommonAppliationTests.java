@@ -1,4 +1,4 @@
-package org.move02.common;
+package org.move02.domain;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

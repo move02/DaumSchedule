@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="testCluster" uuid="5e7f0f01-b5e2-4f46-bcd9-4d5ac32001ef">
-      <driver-ref>mongo</driver-ref>
+    <data-source source="LOCAL" name="localhost_daumschedule" uuid="c10b2489-2747-4c15-aaaf-050925f47442">
+      <driver-ref>mariadb</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>com.dbschema.MongoJdbcDriver</jdbc-driver>
-      <jdbc-url>mongodb+srv://testchatcluster-kuk2b.mongodb.net/test?retryWrites=true&amp;w=majority</jdbc-url>
+      <remarks>다음스케줄 로컬호스트</remarks>
+      <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mariadb://localhost:3306/daumschedule</jdbc-url>
     </data-source>
   </component>
 </project>

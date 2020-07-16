@@ -9,7 +9,8 @@ dependencies {
     testImplementation('org.springframework.boot:spring-boot-starter-test') {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
     }
-    implementation("org.springframework.boot:spring-boot-starter-data-mongodb")
+    implementation("org.springframework.boot:spring-boot-starter-data-jpa")
+    runtimeOnly(group: 'org.mariadb.jdbc', name: 'mariadb-java-client', version: '2.6.0')
 }
 
 test {

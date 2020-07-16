@@ -1,5 +1,5 @@
 rootProject.name = 'DaumSchedule'
 include 'NightworkBot'
-include 'Common'
+include 'CommonDomain'
 include 'Admin'
 

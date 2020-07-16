@@ -5,7 +5,7 @@
       <element id="javaee-facet-resources" facet="DaumSchedule.Common/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="DaumSchedule.Common" />
+          <element id="module-output" name="DaumSchedule.CommonDomain" />
         </element>
       </element>
     </root>
